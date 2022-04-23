@@ -1,0 +1,79 @@
+
+
+@media (max-width : 930px ){
+    .nav-mobile {
+        display: block;
+    }
+    .col-menu {
+        display: none;
+    }
+    .team {
+        grid-template-columns: 1fr;
+    }
+    .FEATURES-content {
+        flex-wrap: wrap;
+    }
+    .FEATURES-menu {
+        flex: 0 0 100%;
+    }
+    .FEATURES-text {
+        flex-wrap: wrap;
+    }
+    .FEATURES-text .text {
+        flex: 0 0 100%;
+        order: 1;
+    }
+    .FEATURES-text .icon {
+        order: -1;
+        margin: 20px 0;
+    }
+    .FEATURES-text .icon img {
+        width: 100%;
+        max-width: 550px;
+        margin-left: 30px;        
+    }
+}
+@media (max-width :600px){
+    .col-l {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .col-r {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .col-text {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .grip-services {
+        grid-template-columns: 1fr;
+    }
+    .row-footer {
+        flex-wrap: wrap;
+    }
+    .col-infor {
+        flex: 0 0 48%;
+    }
+    .col-link {
+        flex: 0 0 48%;
+    }
+    .col-comment {
+        flex: 0 0 48%;
+    }
+    .col-btn {
+        display: none;
+    }
+    .portfolio-content .row {
+        flex-wrap: wrap;
+    }
+    .portfolio-content .row .col {
+        flex: 0 0 100%;
+    }
+    .skill-content {
+        grid-template-columns: 1fr;
+    }
+    .about-team {
+        padding: -70px;
+    }
+}
