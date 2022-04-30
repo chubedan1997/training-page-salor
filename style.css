@@ -452,6 +452,9 @@ footer {
     color:#FFF;
     z-index: 2;
 }
+.prortfolo_control {
+    cursor: pointer;
+}
 .protfoloi-text h4 {
     font-size: 24px;
     margin-bottom: 5px;
@@ -731,7 +734,7 @@ footer {
 }
 
 
-.fifty-percent {
+/* .fifty-percent {
     max-width: 50%;
 }
 @keyframes move-down-text {
@@ -746,4 +749,13 @@ footer {
         top: 0;
         opacity: 1;
     }
+} */
+
+
+/* .show-img {
+    display: block;
+} */
+
+.hide-img {
+    display: none;
 }
